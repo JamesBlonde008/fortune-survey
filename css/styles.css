@@ -1,3 +1,12 @@
-#work-responses {
+#curse-responses {
   display: none;
+}
+
+#fortune-responses {
+  display: none;
+}
+
+input {
+  text-align: right;
+  width: 30px;
 }

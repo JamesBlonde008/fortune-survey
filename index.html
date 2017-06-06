@@ -1,4 +1,4 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,34 +6,42 @@ a<!DOCTYPE html>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Transportation Survey</title>
+    <title>Fortune Teller Survey</title>
   </head>
     <body>
       <div class="container">
         <div class="jumbotron">
-          <h2>Transportation Survey</h2>
+          <h2>Fortune Teller Survey</h2>
         </div>
-        <form id="transportation_survey">
+        <form id="curse-survey">
           <div class="form-group">
-            <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
-            <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
-            <input type="checkbox" name="work-transportation" value="car">Driving a car.<br>
-            <input type="checkbox" name="work-transportation" value="carpool">Carpooling with others.<br>
-            <input type="checkbox" name="work-transportation" value="walk">Walking.<br>
-            <input type="checkbox" name="work-transportation" value="bus">Riding the bus.<br>
-            <input type="checkbox" name="work-transportation" value="train">Riding the train.<br>
-            <input type="checkbox" name="work-transportation" value="streetcar">Riding the streetcar.<br>
-            <input type="checkbox" name="work-transportation" value="taxi">Taking a taxi.<br>
-            <input type="checkbox" name="work-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-            <input type="checkbox" name="work-transportation" value="skateboard">Skateboarding.<br>
-            <input type="checkbox" name="work-transportation" value="rollerblade">Rollerblading.<br>
-            <input type="checkbox" name="work-transportation" value="scooter">Riding a scooter.<br>
-            <input type="checkbox" name="work-transportation" value="other">Another mode of transportation not listed here.<br>
+            <p>In the past year, I have experienced the following unfortunate or bizarre events:</p>
+            <input type="checkbox" name="curse" value="black-cats">Crossed by a black cat.<br>
+            <input type="checkbox" name="curse" value="ladders">Walked under a ladder.<br>
+            <input type="checkbox" name="curse" value="carpools">Carpooled with Death.<br>
+            <input type="checkbox" name="curse" value="trolls"> Lost a game to a troll under a bridge.<br>
+            <input type="checkbox" name="curse" value="broken-mirrors">Broke a mirror.<br>
+            <input type="checkbox" name="curse" value="gems">Accepted gems from a shadowy figure during night.<br>
+            <input type="checkbox" name="curse" value="vampires">Found yourself under the spell of a Transylvanian man.<br>
+            <input type="checkbox" name="curse" value="ghosts">is it sp00ky 2 b alone @ home??.<br>
+            <input type="checkbox" name="curse" value="poltergeists">Have you lost a child to your tv set?<br>
+            <input type="checkbox" name="curse" value="possessions">Night sweats, stiff limbs, craning neck 360 degrees, and vomiting pea soup?<br>
+            <input type="checkbox" name="curse" value="lycanthropes">Scratched by a strange doggo on a full moon.<br>
+            <input type="checkbox" name="fortune" value="clover">Found a four leaf clover.<br>
+            <input type="checkbox" name="fortune" value="rainbow">Saw a rainbow.<br>
+            <input type="checkbox" name="fortune" value="horse-shoe">Found a horse shoe up your ass.<br>
+            <input type="checkbox" name="fortune" value="rabbit-foot">Received a rabbit foot as a gift.<br>
           </div>
          <button type="submit">Submit Survey</button>
         </form>
-        <span id="work-responses">
-          <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+        <div id="results">
+
+        </div>
+        <span id="curse-responses">
+          <p><b>You have been cursed by the following entities:</b></p>
+        </span>
+        <span id="fortune-responses">
+          <p><b>You have been blessed by the following entities:</b></p>
         </span>
       </div>
     </body>
