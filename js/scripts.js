@@ -6,13 +6,13 @@ $(document).ready(function(){
     var fortuneArray = [];
 
     //show html spans and push checked values into arrays
-    $("#curse-responses").show();
+    //$("#curse-responses").show();
     $("input:checkbox[name=curse]:checked").each(function(){
       var curse = $(this).val();
       curseArray.push(curse);
       $('#curse-responses').append(curse + "<br>");
     });
-    $("#fortune-responses").show();
+    //$("#fortune-responses").show();
     $("input:checkbox[name=fortune]:checked").each(function(){
       var fortune = $(this).val();
       fortuneArray.push(fortune);
@@ -35,7 +35,7 @@ $(document).ready(function(){
       $("#results").append("<img src='img/supercursed.jpg' alt='supercursed' class='resultsimg' />");
       $("#results").append("<h2>SUPER CURSED</h2>")
     } else if (curseArray.length > fortuneArray.length){
-      $("#results").append("<img src='img/cursed.jpg' alt='supercursed' class='resultsimg' />");
+      $("#results").append("<img src='img/cursed.jpeg' alt='supercursed' class='resultsimg' />");
       $("#results").append("<h2>CURSED</h2>")
     } else if (fortuneArray.length > curseArray.length){
       $("#results").append("<img src='img/blessed.jpg' alt='supercursed' class='resultsimg' />");
