@@ -1,3 +1,19 @@
+body {
+  background-image: url("../img/bg.jpg");
+  font-size: 2.3em;
+}
+
+.jumbotron {
+  margin-top: 25px;
+  background-color: black;
+  color: #FFCDD2;
+}
+.container {
+  background-color: #FFCDD2;
+  margin-top: 75px;
+  padding-bottom: 45px;
+}
+
 #jumbotron-text {
   font-size: 3.5em;
   text-align: center;
